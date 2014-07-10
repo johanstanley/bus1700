@@ -14,7 +14,7 @@
 
   <link href="../../stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
 
-  <script src="../../javascripts/application.js" type="text/javascript"></script>c
+  <script src="../../javascripts/application.js" type="text/javascript"></script>
 </head>
 
 
