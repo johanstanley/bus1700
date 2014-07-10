@@ -1,0 +1,144 @@
+body{
+	background:#fff url(../images/bg_linhas.gif) left top;
+}
+
+body img{border:none; margin-bottom:10px;}
+
+div.icon{float:left; margin:10px; margin-top:0px; width:66px; height:95px;}
+
+#topo{
+	width:550px;
+	margin:30px auto;
+}
+
+#topo h1{
+	width:380px;
+	height:83px;
+	margin:0 auto;
+	background:url(../images/microwork.gif) no-repeat;
+	text-indent:-9000px;
+	overflow:hidden;
+}
+
+#msg{
+	width:530px;
+	height:auto;	
+	padding:10px;
+	margin:15px auto;
+	background:#fff;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.11, rgb(232,232,232)),
+    color-stop(0.56, rgb(245,245,245)),
+    color-stop(0.78, rgb(255,255,255))
+	);
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(232,232,232) 11%,
+		rgb(245,245,245) 56%,
+		rgb(255,255,255) 78%
+	);
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border:1px solid #e8e8e8;
+	text-shadow:1px 1px 1px #fff;
+	display:table;
+}
+
+#msg h2{
+	font:bold 22px Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px 1px #fff;
+	color:#F00;
+	margin:5px;	
+}
+#msg h3{
+	font:bold 16px Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px 1px #fff;
+	color:#333;
+	margin:5px;
+}
+
+#msg p{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666;
+	margin:0px;
+}
+
+#msg hr{
+	border:1px solid #c0c0c0; 
+	margin-top:5px; 
+	margin-bottom:5px;
+}
+
+p.credits{
+	font:10px Arial, Helvetica, sans-serif;
+	color:#c0c0c0;
+	text-align:center;
+	margin-top:10px;
+}
+
+div.attention{
+	width:90%; margin:0 auto;
+	padding:8px; 
+	background:#FFC; 
+	border:1px solid #FC0; 
+	margin-top:10px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	clear:left; 
+	display:table;
+}
+
+ul.notas{margin-top:5px; background:#900;}
+ul.notas li{
+	height:30px !important;
+	padding-left:30px;
+	padding-top:5px;
+	margin-right:10px;
+	list-style:none;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#000;
+	background:url(../images/face_smile.png) top left no-repeat;
+	display:inline;
+	float:left;
+	color:#060;
+}
+ul.notas li.sad{background:url(../images/face_sad.png) top left no-repeat; color:#f00;}
+
+form fieldset{
+	padding:10px !important;
+	background:#fff;
+	margin-top:15px;
+	margin-bottom:10px;
+	border:none;
+}
+form fieldset p{color:#336 !important; font-size:14px !important;}
+form fieldset p.nota{font-size:18px !important; color:#000 !important; font-weight:bold !important;}
+
+.btGrava{float:right; padding:8px;}
+
+#loading{
+	float:left;
+	display:none;
+}
+#loading p{
+	height:20px;
+	background:url(../images/loading2.gif) no-repeat;
+	padding-left:20px;
+	font-size:12px !important;
+	font-weight:bold !important;
+	color:#000 !important;
+}
+
+#retorno{
+	padding:10px !important;
+	background:#fff;
+	margin-top:20px;
+	margin-bottom:10px;
+	display:none;
+	clear:both;	
+}
